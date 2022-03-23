@@ -3,7 +3,6 @@ import random
 
 numero_aleatorio = random.randrange(100)
 
-
 exist_winner = False
 print("Tenés 5 intentos para adivinar un numero entre 0 y 99")
 actual_choice = 1
