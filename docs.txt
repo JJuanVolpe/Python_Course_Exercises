@@ -1,0 +1,13 @@
+# Documentación extra de referencia
+
+Comandos que me fueron de utilidad en mi caso específico:
+(Computadora con S.O Ubuntu 20.04 con entorno grafico Kubuntu)
+
+1- 
+  python3/python3.10 -m venv tutorial-env. 
+  (Esto creará el directorio tutorial-env si no existe, y también creará directorios dentro de él
+    que contienen una copia del intérprete de Python y varios archivos de soporte.)
+
+2- 
+   tutorial-env\Scripts\activate. (Activar entorno virtual en Windows)
+   source tutorial-env/bin/activate. (Activar entorno virtual en Unix/MacOs)
