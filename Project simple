@@ -1,0 +1,19 @@
+import PySimpleGUI as sg
+
+
+def get_option_main_menu():
+
+    main_menu = sg.Window(title="The game!", 
+                        layout=[[sg.Button("Jugar!"),
+                        sg.Button("Configuración"),
+                        sg.Button("Puntajes"),
+                        sg.Button("Perfil"),
+                        ]], margins=(100, 50))
+
+
+    event, values = main_menu.read()
+    main_menu.close()
+    return event
+
+event = get_option_main_menu()
+print(event)
